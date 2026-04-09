@@ -11,7 +11,7 @@ import Testimonials from "@/src/sections/Testimonials";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-[#dad1c1]">
       <Navbar />
       <div id="home"><Hero /></div>
       <div id="about" className="scroll-mt-24"><AboutSection /></div>
@@ -22,6 +22,6 @@ export default function Home() {
       <div id="testimonials" className="scroll-mt-24"><Testimonials /></div>
       <div id="contact" className="scroll-mt-24"><Contact /></div>
       <Footer />
-    </>
+    </div>
   );
 }

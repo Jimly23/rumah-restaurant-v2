@@ -82,7 +82,7 @@ const Menu = () => {
         <div className='flex gap-2 justify-center items-center'>
           <Link
             href="/menu"
-            className="w-full max-w-[250px] py-3 px-8 bg-[#818e91] text-white text-center rounded font-semibold text-lg tracking-wide shadow-lg"
+            className="w-full max-w-[250px] py-3 px-8 bg-white border-3 border-[#1c5302] text-[#1c5302] text-center rounded-lg font-semibold text-lg tracking-wide shadow-lg"
           >
             Traditional Meal
           </Link>

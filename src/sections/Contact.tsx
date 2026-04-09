@@ -68,7 +68,7 @@ const Contact = () => {
                         <React.Fragment key={phone.link}>
                           <a
                             href={phone.link}
-                            className="cursor-pointer text-[#1c5302] text-base md:text-2xl leading-relaxed hover:underline underline-offset-4 decoration-[#c5a059]"
+                            className="cursor-pointer text-[#1c5302] text-base md:text-2xl leading-relaxed hover:text-white"
                           >
                             {phone.content}
                           </a>
@@ -90,7 +90,7 @@ const Contact = () => {
                     href={item.link}
                     target={item.link.startsWith("http") ? "_blank" : undefined}
                     rel="noopener noreferrer"
-                    className="cursor-pointer text-[#1c5302] lowercase text-base md:text-2xl leading-relaxed hover:underline underline-offset-4 decoration-[#c5a059]"
+                    className="cursor-pointer text-[#1c5302] lowercase text-base md:text-2xl leading-relaxed hover:text-white"
                   >
                     {item.content}
                   </a>

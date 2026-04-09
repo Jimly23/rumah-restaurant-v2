@@ -64,9 +64,9 @@ const Events = () => {
       {/* Timeline Container */}
       <div className="relative max-w-4xl mx-auto">
         {/* Vertical Line */}
-        <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-[#344349] to-transparent hidden md:block"></div>
+        <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-[#1c5302] to-transparent hidden md:block"></div>
         {/* Mobile Vertical Line */}
-        <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-[#344349] to-transparent md:hidden"></div>
+        <div className="absolute left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-[#1c5302] to-transparent md:hidden"></div>
 
         {events.map((event, index) => {
           const isLeft = index % 2 !== 0; // Ganjil di kiri (item ke-2)
@@ -79,7 +79,7 @@ const Events = () => {
               }`}
             >
               {/* Dot */}
-              <div className="absolute left-[30px] md:left-1/2 -translate-x-1/2 w-5 h-5 bg-white border-4 border-[#344349] rounded-full z-10 top-8"></div>
+              <div className="absolute left-[30px] md:left-1/2 -translate-x-1/2 w-5 h-5 bg-white border-4 border-[#1c5302] rounded-full z-10 top-8"></div>
 
               {/* Content Wrapper */}
               <div
@@ -100,10 +100,10 @@ const Events = () => {
                   {/* Mobile Arrow */}
                   <div className="absolute top-4 left-[-10px] w-0 h-0 border-y-[10px] border-y-transparent border-r-[10px] border-r-white md:hidden"></div>
 
-                  <span className="inline-block bg-[#344349] text-white font-bold px-3 py-1 rounded mb-3 uppercase tracking-wider">
+                  <span className="inline-block bg-[#1c5302] text-white font-bold px-3 py-1 rounded mb-3 uppercase tracking-wider">
                     {event.year}
                   </span>
-                  <h3 className="text-2xl font-bold text-[#344349] mb-2 group-hover:text-[#B28C37] transition-colors">
+                  <h3 className="text-2xl font-bold text-[#1c5302] transition-colors">
                     {event.title}
                   </h3>
                   <p className="font-playfair text-xl text-gray-500 italic leading-relaxed">

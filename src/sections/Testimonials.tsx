@@ -165,7 +165,7 @@ const Testimonials = () => {
   const totalSlides = testimonials.length;
 
   return (
-    <section className="bg-[#dad1c1] py-20 px-5 md:px-10 font-sans overflow-hidden" id="testimonials">
+    <section className="bg-[#dad1c1] py-20 px-5 md:px-10 font-sans overflow-hidden mt-20" id="testimonials">
       <div className="max-w-7xl mx-auto">
 
         {/* Title Area */}

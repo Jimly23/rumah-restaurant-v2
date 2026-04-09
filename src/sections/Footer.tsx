@@ -79,55 +79,55 @@ const Footer = () => {
         <nav className="flex flex-wrap font-playfair justify-center gap-x-8 gap-y-4 text-[#1c5302]">
           <a 
             href="#home" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Home
           </a>
           <a 
             href="#about" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             About
           </a>
           <a 
             href="#gallery" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Gallery
           </a>
           <a 
             href="#events" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Events
           </a>
           <a 
             href="#menu" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Menu
           </a>
           <a 
             href="#delivery" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Delivery
           </a>
           <a 
             href="#testimonials" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Testimonials
           </a>
           <a 
             href="#contact" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors"
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Contact
           </a>
         </nav>
 
-        <a href="/legal-notice" className='text-xs text-[#1c5302] md:text-lg tracking-[0.2em] hover:text-amber-600 transition-colors'>
+        <a href="/legal-notice" className='text-xs text-[#1c5302] md:text-lg tracking-[0.2em] hover:text-white transition-colors'>
           Legal & Privacy Notice
         </a>
 
@@ -136,7 +136,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center">
-          <p className="text-sm md:text-base text-gray-900 tracking-wide font-light">
+          <p className="text-sm md:text-base text-[#1c5302] tracking-wide font-light">
             &copy; {new Date().getFullYear()} Rumah Restaurant. All Rights Reserved.
           </p>
         </div>
