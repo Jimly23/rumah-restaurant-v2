@@ -90,10 +90,16 @@ const Footer = () => {
             About
           </a>
           <a 
-            href="#gallery" 
+            href="#menu" 
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
-            Gallery
+            Menu
+          </a>
+          <a 
+            href="#order" 
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
+          >
+            Order
           </a>
           <a 
             href="#events" 
@@ -102,22 +108,16 @@ const Footer = () => {
             Events
           </a>
           <a 
-            href="#menu" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
-          >
-            Menu
-          </a>
-          <a 
-            href="#delivery" 
-            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
-          >
-            Delivery
-          </a>
-          <a 
             href="#testimonials" 
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Testimonials
+          </a>
+          <a 
+            href="#gallery" 
+            className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
+          >
+            Gallery
           </a>
           <a 
             href="#contact" 

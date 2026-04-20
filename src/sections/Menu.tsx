@@ -9,25 +9,25 @@ const Menu = () => {
     {
       id: "col-1",
       images: [
-        'https://cdn1.site-media.eu/images/0/22777508/slide1-bJAFiCbvA2q29Z2g6Q2mPw.png',
-        'https://cdn1.site-media.eu/images/0/22777505/slide2-qf5rWeIEJApCz0CpP7YD2A.png',
-        'https://cdn1.site-media.eu/images/0/22777503/slide3-Ymk24VmqzEIAXC7b3U39GA.png',
+        '/assets/images/kangkung.png',
+        '/assets/images/nasi-goreng.png',
+        '/assets/images/ikan-goreng.png',
       ],
     },
     {
       id: "col-2",
       images: [
-        'https://cdn1.site-media.eu/images/0/22777497/slide4-XzvK0v4T3Zzgl_g8mCcCNw.png',
-        'https://cdn1.site-media.eu/images/0/22777494/slide5-cyugRQUBK99yH9qd9g8-_A.png',
-        'https://cdn1.site-media.eu/images/0/22777491/slide6-1-xlZF19Ab9R8FiqWTXD9w.png',
+        '/assets/images/nasi-goreng.png',
+        '/assets/images/pisang-goreng.png',
+        '/assets/images/rendang.png',
       ],
     },
     {
       id: "col-3",
       images: [
-        'https://cdn1.site-media.eu/images/0/22777488/slide7-q-TZBLrKvoqoxLqq8JD51w.png',
-        'https://cdn1.site-media.eu/images/0/22777485/slide8-uExZLNyfLw0qTgkUk79qAw.png',
-        'https://cdn1.site-media.eu/images/0/22777482/slide9-orVloy73MVbRgIh8QQZCsA.png',
+        '/assets/images/nasi-rawon-ayam-goreng.jpg',
+        '/assets/images/ikan-goreng-kicap.jpg',
+        '/assets/images/sate-madura.jpg',
       ],
     },
   ];

@@ -9,11 +9,11 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/#about' },
-    { name: 'Gallery', href: '/#food-gallery' },
-    { name: 'Events', href: '/#events' },
     { name: 'Menu', href: '/#menu' },
-    { name: 'Delivery', href: '/#delivery' },
+    { name: 'Order', href: '/#order' },
+    { name: 'Events', href: '/#events' },
     { name: 'Testimonials', href: '/#testimonials' },
+    { name: 'Gallery', href: '/#food-gallery' },
     { name: 'Contact', href: '/#contact' },
   ];
 

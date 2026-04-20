@@ -20,11 +20,11 @@ const Delivery = () => {
   };
 
   return (
-    <section className="bg-[#dad1c1] py-20 px-5 font-sans text-center" id="delivery">
+    <section className="bg-[#dad1c1] py-20 px-5 font-sans text-center" id="order">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <h3 className="text-3xl md:text-5xl font-bold text-[#1c5302] mb-3">
-          Delivery
+          Order
         </h3>
         <p className="text-[#1c5302] font-playfair text-2xl mb-12">
           We partner with KEETA for Fast, reliable, and right to your doorstep

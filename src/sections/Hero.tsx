@@ -5,14 +5,14 @@ import Image from 'next/image';
 const Hero = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden">
-      <div className='min-h-screen absolute z-20 top-0 right-0 w-full lg:hidden'>
+      {/* <div className='min-h-screen absolute z-20 top-0 right-0 w-full lg:hidden'>
         <Image src={'/assets/images/bunga-kanan.png'} alt="bunga kanan" width={150} height={150} className='absolute bottom-0 right-0' />
-      </div>
+      </div> */}
       <div className='min-h-screen absolute z-20 top-0 left-0 w-full lg:hidden'>
         <Image src={'/assets/images/bunga-kiri.png'} alt="bunga kiri" width={150} height={150} className='absolute bottom-0 left-0' />
       </div>
       <Image
-        src="/assets/images/bg-fix.png" // GANTI DENGAN PATH GAMBAR KAMU DI FOLDER PUBLIC
+        src="/assets/images/bg-fix-2.png" // GANTI DENGAN PATH GAMBAR KAMU DI FOLDER PUBLIC
         alt="Pemandangan Interior Rumah Restaurant yang Asri"
         fill
         priority
