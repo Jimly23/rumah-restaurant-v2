@@ -13,22 +13,19 @@ const AboutSection = () => {
 
         {/* About Text Content */}
         <div className="font-playfair text-center text-[#1c5302] text-sm md:text-xl leading-relaxed space-y-6 max-w-7xl font-light normal-case">
+          <h3 className='text-center font-medium text-2xl mb-0'>Why Rumah</h3>
           <p>
-            In both Malay and Indonesian, &apos;Rumah&apos; means house or home, representing a symbol of warmth,
-            safety, and family to us. At Rumah Restaurant, we serve an authentic culinary heritage passed
-            down through generations, from Grandma Mak Emah and Wah Zainab to Abang Ansar.
+            Rumah means home in Malay and Indonesian—but here, it’s an experience. Rooted in ancient traditions, Rumah is a place of warmth, comfort, and togetherness, where heritage flavours are elevated and hospitality feels deeply personal. Every visit is an invitation to slow down, gather, and feel truly at home.
           </p>
+          <h3 className='text-center font-medium text-2xl mb-0'>Bringing Home to You</h3>
           <p>
-            Guided by our motto, &apos;We serve only what we would proudly serve our own families at home,&apos;
-            we are committed to providing dishes prepared with genuine passion and Rumah-Loving-Care (RLC).
-            We prioritize your well-being by using healthy ingredients, including mineral water for cooking,
-            no added MSG, and oils low in trans and saturated fats.
+            We serve only what we would proudly serve our own families. Each dish is prepared with Rumah‑loving‑care, using thoughtfully sourced ingredients, no added MSG, healthier oils, and mineral water—crafted with intention, balance, and soul.
           </p>
+          <h3 className='text-center font-medium text-2xl mb-0'>A Legacy on Every Plate</h3>
           <p>
-            Our specialty is Satay—premium meat marinated in aromatic spices like lemongrass and turmeric,
-            charcoal-grilled to perfection, and served with our signature homemade peanut sauce.
-            Here, you are more than just a guest; because at Rumah, you are always at home.
+            Our recipes are cherished family heirlooms, lovingly passed down through generations. Each bite carries memories of shared tables, time‑honoured techniques, and flavours that speak softly of home, tradition, and belonging.
           </p>
+          <p className='italic'>Step inside Rumah—where heritage meets heart, and every meal feels like coming home.</p>
         </div>
 
       </div>

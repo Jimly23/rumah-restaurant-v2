@@ -12,13 +12,14 @@ const Hero = () => {
         <Image src={'/assets/images/bunga-kiri.png'} alt="bunga kiri" width={150} height={150} className='absolute bottom-0 left-0' />
       </div>
       <Image
-        src="/assets/images/bg-fix-2.png" // GANTI DENGAN PATH GAMBAR KAMU DI FOLDER PUBLIC
+        src="/assets/images/bg-fix-4.png" // GANTI DENGAN PATH GAMBAR KAMU DI FOLDER PUBLIC
         alt="Pemandangan Interior Rumah Restaurant yang Asri"
         fill
         priority
         quality={100}
         className="object-cover object-center" // Gambar akan ditengah dan meng-cover area
       />
+      {/* <p className='font-playfair font-thin absolute text-2xl left-1/2 -translate-x-1/2 bottom-20 text-center'>“Where heritage flavours meet <br />the warmth of home.”</p> */}
     </section>
   );
 };

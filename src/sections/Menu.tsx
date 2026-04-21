@@ -10,16 +10,18 @@ const Menu = () => {
       id: "col-1",
       images: [
         '/assets/images/kangkung.png',
-        '/assets/images/nasi-goreng.png',
-        '/assets/images/ikan-goreng.png',
+        '/assets/images/terung-belado.jpg',
+        '/assets/images/rendang-cabai.jpeg',
+        '/assets/images/telur.jpeg',
       ],
     },
     {
       id: "col-2",
       images: [
-        '/assets/images/nasi-goreng.png',
-        '/assets/images/pisang-goreng.png',
-        '/assets/images/rendang.png',
+        '/assets/images/terung-belado.jpg',
+        '/assets/images/ikan-tamban-goreng.jpg',
+        '/assets/images/pastel.jpeg',
+        '/assets/images/nastel.jpeg',
       ],
     },
     {
@@ -28,6 +30,8 @@ const Menu = () => {
         '/assets/images/nasi-rawon-ayam-goreng.jpg',
         '/assets/images/ikan-goreng-kicap.jpg',
         '/assets/images/sate-madura.jpg',
+        '/assets/images/nasi-kriuk.jpeg',
+        '/assets/images/jus-buah.jpeg',
       ],
     },
   ];
@@ -82,10 +86,9 @@ const Menu = () => {
         <div className='flex gap-2 justify-center items-center'>
           <Link
             href="/menu"
-            className="w-full max-w-[250px] py-3 px-8 bg-white border-3 border-[#1c5302] text-[#1c5302] text-center rounded-lg font-semibold text-lg tracking-wide shadow-lg"
+            className="w-full max-w-[250px] py-3 px-8 bg-[#1c5302] border-3 border-[#1c5302] text-white text-center rounded-lg font-semibold text-lg tracking-wide shadow-lg"
           >
-            Traditional Meal
-          </Link>
+            Click Here to See Full Menu          </Link>
           {/* <Link
             href="/menu-2"
             className="w-full max-w-[250px] py-3 px-8 bg-[#b58b2d] text-white text-center rounded font-medium tracking-wide shadow-lg"

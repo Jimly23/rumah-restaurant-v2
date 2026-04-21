@@ -24,7 +24,7 @@ const Contact = () => {
     {
       id: 2,
       icon: <InstagramIcon />,
-      content: "@rumahrestaurant",
+      content: "@rumahrestaurant_dxb",
       link: "https://www.instagram.com/rumahrestaurant_dxb/",
       type: "single",
     },

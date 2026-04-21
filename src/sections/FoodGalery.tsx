@@ -10,13 +10,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const foodItems = [
-  { id: 1, title: 'Nasi Goreng', desc: 'Nasi Goreng Daging Spesial', img: '/assets/images/nasi-goreng.png' },
+  { id: 1, title: 'Telur Bumbu Pedas', desc: 'Telur Bumbu Pedas', img: '/assets/images/telur.jpeg' },
   { id: 2, title: 'Sate Madura', desc: 'Sate Madura Asli', img: '/assets/images/sate-madura.jpg' },
-  { id: 3, title: 'Gulai Kambing', desc: 'Gulai Kambing Gurih', img: 'https://cdn1.site-media.eu/images/0/22838307/slide4-qgu_U9k3dWPzSkiuqiDT1g.png' },
+  { id: 3, title: 'Lemak Cili Api', desc: 'Lemak Cili Api', img: 'https://cdn1.site-media.eu/images/0/22838307/slide4-qgu_U9k3dWPzSkiuqiDT1g.png' },
   // { id: 4, title: 'Rendang', desc: 'Rendang Daging Sapi', img: 'https://cdn1.site-media.eu/images/0/22838312/slide2-uDzgZj_iRVk2Tgacs0qhhw.png' },
-  { id: 5, title: 'Pisang Goreng', desc: 'Pisang Goreng Manis', img: '/assets/images/pisang-goreng.png' },
+  { id: 5, title: 'Rendang Cabai', desc: 'Rendang Cabai', img: '/assets/images/rendang-cabai.jpeg' },
   { id: 6, title: 'Rendang', desc: 'Rendang Daging Sapi', img: '/assets/images/rendang.png' },
-  { id: 7, title: 'Ikan Goreng Kicap', desc: 'Ikan Goreng Kicap Fresh', img: '/assets/images/ikan-goreng.png' },
+  { id: 7, title: 'Nasi Telur Ayam', desc: 'Nasi Telur Ayam', img: '/assets/images/nastel.jpeg' },
   { id: 8, title: 'Nasi Rawon Ayam', desc: 'Nasi Rawon Ayam Goreng', img: '/assets/images/nasi-rawon-ayam-goreng.jpg' },
   { id: 9, title: 'Kangkong Sambal Belacan', desc: 'Kangkong Sambal Belacan', img: '/assets/images/kangkung.png' },
   // Tambahkan item lainnya sesuai kebutuhan

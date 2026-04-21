@@ -6,6 +6,7 @@ interface EventItem {
   id: number;
   year: string;
   title: string;
+  date: string;
   description: string;
   mediaUrl: string;
   type: 'image' | 'video';
@@ -15,33 +16,46 @@ const events: EventItem[] = [
   {
     id: 1,
     year: '2026',
-    title: 'Breakfast',
-    description: 'Celebrate your special moments in an extraordinary dining setting.',
-    mediaUrl: '/assets/events/event2.mp4',
-    type: 'video',
-  },
-  {
-    id: 2,
-    year: '2026',
     title: 'Pesta Satay Madura',
-    description: 'Join us for unforgettable nights filled with great music.',
+    date: 'April',
+    description: 'Discover exciting upcoming events and block the date... Click for details',
     mediaUrl: '/assets/events/event3.jpeg',
     type: 'image',
   },
   {
+    id: 2,
+    year: '2026',
+    title: 'Breakfast',
+    date: 'Jan 25',
+    description: 'Discover exciting upcoming events and block the date... Click for details',
+    mediaUrl: '/assets/events/event2.mp4',
+    type: 'video',
+  },
+  {
     id: 3,
     year: '2026',
-    title: 'Hari Raya Dishes',
+    title: '1st Satay Club in Dubai',
+    date: 'Jan 17',
+    description: 'Discover exciting upcoming events and block the date... Click for details',
+    mediaUrl: '/assets/events/event5.jpg',
+    type: 'image',
+  },
+  {
+    id: 4,
+    year: '2025',
+    title: 'Breakfast Buffet',
+    date: 'Dec 27',
     description: 'Discover exciting upcoming events and live music every weekend',
     mediaUrl: '/assets/events/event4.jpg',
     type: 'image',
   },
   {
-    id: 4,
+    id: 5,
     year: '2026',
-    title: '1st Satay Club in Dubai',
+    title: 'Hari Raya Dishes',
+    date: 'March',
     description: 'Discover exciting upcoming events and live music every weekend',
-    mediaUrl: '/assets/events/event5.jpg',
+    mediaUrl: '/assets/events/event4.jpg',
     type: 'image',
   },
 ];
@@ -89,7 +103,7 @@ const Events = () => {
               >
                 <div 
                   onClick={() => setSelectedMedia(event)}
-                  className="bg-white p-6 rounded-xl shadow-sm inline-block relative cursor-pointer hover:shadow-md transition-shadow group"
+                  className="bg-[#1c5302] p-6 rounded-xl shadow-sm inline-block relative cursor-pointer hover:shadow-md transition-shadow group"
                 >
                   {/* Triangle Arrow */}
                   <div className={`absolute top-4 w-0 h-0 border-y-[10px] border-y-transparent hidden md:block ${
@@ -99,14 +113,16 @@ const Events = () => {
                   }`}></div>
                   {/* Mobile Arrow */}
                   <div className="absolute top-4 left-[-10px] w-0 h-0 border-y-[10px] border-y-transparent border-r-[10px] border-r-white md:hidden"></div>
-
-                  <span className="inline-block bg-[#1c5302] text-white font-bold px-3 py-1 rounded mb-3 uppercase tracking-wider">
-                    {event.year}
+                  <span className='flex items-center gap-x-2'>
+                    <span className="inline-block bg-white text-[#1c5302] font-bold px-3 py-1 rounded mb-3 uppercase tracking-wider">
+                      {event.year}
+                    </span>
+                    <span className='mb-3 font-medium'>{event.date}</span>
                   </span>
-                  <h3 className="text-2xl font-bold text-[#1c5302] transition-colors">
+                  <h3 className="text-2xl font-bold text-white transition-colors">
                     {event.title}
                   </h3>
-                  <p className="font-playfair text-xl text-gray-500 italic leading-relaxed">
+                  <p className="font-playfair text-xl text-white italic leading-relaxed">
                     {event.description}
                   </p>
                 </div>

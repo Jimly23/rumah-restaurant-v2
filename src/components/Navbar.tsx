@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/#about' },
     { name: 'Menu', href: '/#menu' },
-    { name: 'Order', href: '/#order' },
+    { name: 'Delivery', href: '/#order' },
     { name: 'Events', href: '/#events' },
     { name: 'Testimonials', href: '/#testimonials' },
     { name: 'Gallery', href: '/#food-gallery' },
@@ -24,8 +25,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
         {/* Logo */}
-        <div className="text-2xl md:text-3xl font-bold whitespace-nowrap">
-          Rumah Restaurant
+        <div className="text-2xl md:text-3xl font-bold whitespace-nowrap flex items-center">
+          <Image src={'/assets/images/logo-rumah-bg-gemini.png'} alt="Logo" width={100} height={100} />
+          <span className='font-playfair text-[26px]'>Restaurant</span>
         </div>
 
         {/* Desktop Navigation */}
