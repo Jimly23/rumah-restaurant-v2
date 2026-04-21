@@ -14,10 +14,10 @@ const foodItems = [
   { id: 2, title: 'Sate Madura', desc: 'Sate Madura Asli', img: '/assets/images/sate-madura.jpg' },
   { id: 3, title: 'Lemak Cili Api', desc: 'Lemak Cili Api', img: 'https://cdn1.site-media.eu/images/0/22838307/slide4-qgu_U9k3dWPzSkiuqiDT1g.png' },
   // { id: 4, title: 'Rendang', desc: 'Rendang Daging Sapi', img: 'https://cdn1.site-media.eu/images/0/22838312/slide2-uDzgZj_iRVk2Tgacs0qhhw.png' },
-  { id: 5, title: 'Rendang Cabai', desc: 'Rendang Cabai', img: '/assets/images/rendang-cabai.jpeg' },
+  { id: 5, title: 'Beef Rendang', desc: 'Beef Rendang', img: '/assets/images/rendang-cabai.jpeg' },
   { id: 6, title: 'Rendang', desc: 'Rendang Daging Sapi', img: '/assets/images/rendang.png' },
-  { id: 7, title: 'Nasi Telur Ayam', desc: 'Nasi Telur Ayam', img: '/assets/images/nastel.jpeg' },
-  { id: 8, title: 'Nasi Rawon Ayam', desc: 'Nasi Rawon Ayam Goreng', img: '/assets/images/nasi-rawon-ayam-goreng.jpg' },
+  { id: 7, title: 'Nasi Lemak', desc: 'Nasi Lemak', img: '/assets/images/nastel.jpeg' },
+  { id: 8, title: 'Nasi Rawon', desc: 'Nasi Rawon', img: '/assets/images/nasi-rawon-ayam-goreng.jpg' },
   { id: 9, title: 'Kangkong Sambal Belacan', desc: 'Kangkong Sambal Belacan', img: '/assets/images/kangkung.png' },
   // Tambahkan item lainnya sesuai kebutuhan
 ];
@@ -56,11 +56,11 @@ const FoodGallery = () => {
                   className="object-cover transition-transform duration-500 group-hover/card:scale-110"
                 />
                 {/* Overlay Info */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8 text-white">
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-8 text-white">
                   <div className="text-orange-400 mb-2">★★★★★</div>
                   <h3 className="text-2xl font-semibold mb-1">{item.title}</h3>
                   <p className="text-sm opacity-80 font-light">{item.desc}</p>
-                </div>
+                </div> */}
               </div>
             </SwiperSlide>
           ))}
