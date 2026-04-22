@@ -71,12 +71,12 @@ const Footer = () => {
     <footer className="section-bg py-12 px-4 border-t border-white">
       <div className="max-w-7xl mx-auto flex flex-col items-center space-y-8">
 
-        <div className='relative w-28 h-28 bg-white rounded-full p-5'>
-          <Image src={'/assets/images/logo.png'} alt="logo" width={100} height={100} />
+        <div className='relative w-40 h-40 flex items-center justify-center rounded-full'>
+          <Image src={'/assets/images/logo-footer-3.png'} alt="logo" width={100} height={100} className='object-contain w-full h-full' />
         </div>
 
         {/* Brand/Service Links */}
-        <nav className="flex flex-wrap font-playfair justify-center gap-x-8 gap-y-4 text-[#1c5302]">
+        <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-[#1c5302]">
           <a
             href="#home"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
@@ -137,7 +137,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center">
           <p className="text-sm md:text-base text-[#1c5302] tracking-wide font-light">
-            &copy; {new Date().getFullYear()} Rumah Restaurant. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Rumah Restaurant LLC. All Rights Reserved.
           </p>
         </div>
       </div>
