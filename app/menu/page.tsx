@@ -6,7 +6,7 @@ export default function Page() {
     <div className="relative w-full h-full md:px-[200px] py-10 bg-[#dad1c1]">
       <div className="px-2 md:px-0 mb-8 fixed left-2 top-5 z-20">
         <Link 
-          href="/" 
+          href="/#menu" 
           className="inline-flex  items-center gap-2 px-4 py-2 bg-[#344349] text-white rounded-md hover:bg-[#2c393e] transition-all duration-300 shadow-sm hover:shadow-md font-sans text-sm font-medium"
         >
           <svg 
