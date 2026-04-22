@@ -52,7 +52,7 @@ const Contact = () => {
         {/* Kiri */}
         <div className="space-y-10">
           <h2 className="text-4xl md:text-5xl font-semibold text-[#1c5302] tracking-tight">
-            Visit Us
+            Contact
           </h2>
           
           <div className="flex flex-col gap-8 font-playfair">

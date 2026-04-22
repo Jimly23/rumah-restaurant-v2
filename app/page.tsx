@@ -17,7 +17,7 @@ export default function Home() {
       <div id="about" className="scroll-mt-24"><AboutSection /></div>
       <div id="menu" className="scroll-mt-24"><Menu /></div>
       <div id="order" className="scroll-mt-24"><Delivery /></div>
-      <div id="events" className="scroll-mt-24"><Events /></div>
+      {/* <div id="events" className="scroll-mt-24"><Events /></div> */}
       <div id="testimonials" className="scroll-mt-24"><Testimonials /></div>
       <div id="food-gallery" className="scroll-mt-24"><FoodGallery /></div>
       <div id="contact" className="scroll-mt-24"><Contact /></div>

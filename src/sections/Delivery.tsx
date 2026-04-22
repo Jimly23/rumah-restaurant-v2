@@ -27,7 +27,7 @@ const Delivery = () => {
           Delivery
         </h3>
         <p className="text-[#1c5302] font-playfair text-2xl mb-12">
-          We partner with KEETA for Fast, reliable, and right to your doorstep
+          We partner with KEETA for fast, reliable, and right to your doorstep delivery
         </p>
 
         {/* Delivery Grid */}

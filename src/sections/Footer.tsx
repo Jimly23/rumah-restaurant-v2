@@ -101,12 +101,12 @@ const Footer = () => {
           >
             Order
           </a>
-          <a 
+          {/* <a 
             href="#events" 
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Events
-          </a>
+          </a> */}
           <a 
             href="#testimonials" 
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
