@@ -12,7 +12,7 @@ const Hero = () => {
         <Image src={'/assets/images/bunga-kiri.png'} alt="bunga kiri" width={150} height={150} className='absolute bottom-0 left-0' />
       </div>
       <Image
-        src="/assets/images/bg-fix-5.png" // GANTI DENGAN PATH GAMBAR KAMU DI FOLDER PUBLIC
+        src="/assets/images/bg-fix-6.png" // GANTI DENGAN PATH GAMBAR KAMU DI FOLDER PUBLIC
         alt="Pemandangan Interior Rumah Restaurant yang Asri"
         fill
         priority

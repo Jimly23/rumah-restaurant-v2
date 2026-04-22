@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const AboutSection = () => {
   return (
-    <section className="relative bg-[#dad1c1] text-[#344349] w-full py-20 px-6 md:px-12 overflow-hidden" id="about">
+    <section className="section-bg relative text-[#344349] w-full py-20 px-6 md:px-12 overflow-hidden" id="about">
 
       <div className="relative z-10 max-w-7xl mx-auto flex flex-col items-center">
 

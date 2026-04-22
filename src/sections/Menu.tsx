@@ -37,7 +37,7 @@ const Menu = () => {
   ];
 
   return (
-    <section className='bg-[#dad1c1] p-10'>
+    <section className="section-bg p-10">
       <div className="max-w-7xl mx-auto mt-10 mb-16 text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-[#1c5302] uppercase tracking-widest mb-4">
           Menu

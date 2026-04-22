@@ -9,7 +9,7 @@ import Image from 'next/image';
 //   return (
 //     <footer className="bg-[#dad1c1] text-[#344349] py-12 px-6 md:px-12 border-t border-white/5">
 //       <div className="max-w-7xl text-xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
-        
+
 //         {/* Sisi Kiri: Navigasi Utama */}
 //         <nav className="flex flex-wrap justify-center md:justify-start gap-6 md:gap-8 order-2 md:order-1">
 //           <Link href="/" className="">
@@ -68,35 +68,35 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-12 px-4 bg-[#dad1c1] border-t border-white">
+    <footer className="section-bg py-12 px-4 border-t border-white">
       <div className="max-w-7xl mx-auto flex flex-col items-center space-y-8">
-        
+
         <div className='relative w-28 h-28 bg-white rounded-full p-5'>
           <Image src={'/assets/images/logo.png'} alt="logo" width={100} height={100} />
         </div>
 
         {/* Brand/Service Links */}
         <nav className="flex flex-wrap font-playfair justify-center gap-x-8 gap-y-4 text-[#1c5302]">
-          <a 
-            href="#home" 
+          <a
+            href="#home"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Home
           </a>
-          <a 
-            href="#about" 
+          <a
+            href="#about"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             About
           </a>
-          <a 
-            href="#menu" 
+          <a
+            href="#menu"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Menu
           </a>
-          <a 
-            href="#order" 
+          <a
+            href="#order"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Order
@@ -107,20 +107,20 @@ const Footer = () => {
           >
             Events
           </a> */}
-          <a 
-            href="#testimonials" 
+          <a
+            href="#testimonials"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Testimonials
           </a>
-          <a 
-            href="#gallery" 
+          <a
+            href="#gallery"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Gallery
           </a>
-          <a 
-            href="#contact" 
+          <a
+            href="#contact"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
           >
             Contact

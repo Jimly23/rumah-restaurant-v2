@@ -20,7 +20,7 @@ const Delivery = () => {
   };
 
   return (
-    <section className="bg-[#dad1c1] py-20 px-5 font-sans text-center" id="order">
+    <section className="section-bg py-20 px-5 font-sans text-center" id="order">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <h3 className="text-3xl md:text-5xl font-bold text-[#1c5302] mb-3">

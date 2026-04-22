@@ -40,32 +40,32 @@ type Testimonial = {
 };
 
 const testimonials: Testimonial[] = [
-  { id: 1,  name: "Kalaynahs S",             role: "Customer", date: "01/02/2026", text: "They provide original recipes. Nice staff and kind owner. Generous portions, clean outlet, delicious food, and reasonable prices. Highly recommended." },
-  { id: 2,  name: "Shanya Sang",             role: "Customer", date: "01/02/2026", text: "Hidden gem! Best Malaysian food in town. Clean place, high-quality food, and authentic flavors. Fried fish is fresh and perfectly crispy." },
-  { id: 3,  name: "Nicolas",                 role: "Customer", date: "01/01/2026", text: "Discovered this gem today. The food was tasty and beautifully presented. Service was excellent and timely. Highly recommended for authentic cuisine lovers." },
-  { id: 4,  name: "Damian Kok",              role: "Customer", date: "05/01/2026", text: "First time here. Very authentic Singapore-Malay food, best satay in Dubai." },
-  { id: 5,  name: "Yousef Picky",            role: "Customer", date: "10/01/2026", text: "Good location, good price range, and excellent service." },
-  { id: 6,  name: "Rocio Munoz",             role: "Customer", date: "10/01/2026", text: "Had a fantastic experience! The food was flavorful and beautifully presented, the staff were friendly and attentive. Definitely coming back." },
-  { id: 7,  name: "Khairul Anwar",           role: "Customer", date: "12/01/2026", text: "A newly opened restaurant serving Malay-Singaporean cuisine by experienced chefs with over 30 years of expertise." },
-  { id: 8,  name: "Juefri Rene",             role: "Customer", date: "12/01/2026", text: "A humble family-run spot offering authentic Singaporean heritage cuisine. Cozy and full of character." },
-  { id: 9,  name: "Candy C",                 role: "Customer", date: "15/01/2026", text: "Delicious and comforting home-style food with authentic Singapore, Malaysia, and Indonesia flavors. Clean restaurant and attentive staff." },
-  { id: 10, name: "Bernice Chew",            role: "Customer", date: "15/01/2026", text: "Rumah truly feels like home. The food is comforting, familiar, and full of flavor, just like in Malaysia and Singapore." },
-  { id: 11, name: "Nehsan Selvaraj",         role: "Customer", date: "18/01/2026", text: "Amazing food and atmosphere. Brings back memories of Malaysia. Great portions and reasonable prices." },
-  { id: 12, name: "Elia Rani",               role: "Customer", date: "18/01/2026", text: "Truly authentic Singaporean Malay food. Feels like home-cooked meals and made me crave it again the next day." },
-  { id: 13, name: "Albert Albert",           role: "Customer", date: "20/01/2026", text: "Breakfast buffet was worth the price. The teh susu was outstanding. Sambal and pisang goreng were also excellent." },
-  { id: 14, name: "Bin Bin",                 role: "Customer", date: "20/01/2026", text: "The Nasi Lemak was so delicious I had more than two servings. The sambal enhanced every dish. A must-visit!" },
-  { id: 15, name: "Nasuhiyah Ashari",        role: "Customer", date: "22/01/2026", text: "Satay, udang goreng kunyit, ikan goreng, mee goreng, and beef noodle are excellent. Superb ambience, excellent service, and very clean." },
+  { id: 1, name: "Kalaynahs S", role: "Customer", date: "01/02/2026", text: "They provide original recipes. Nice staff and kind owner. Generous portions, clean outlet, delicious food, and reasonable prices. Highly recommended." },
+  { id: 2, name: "Shanya Sang", role: "Customer", date: "01/02/2026", text: "Hidden gem! Best Malaysian food in town. Clean place, high-quality food, and authentic flavors. Fried fish is fresh and perfectly crispy." },
+  { id: 3, name: "Nicolas", role: "Customer", date: "01/01/2026", text: "Discovered this gem today. The food was tasty and beautifully presented. Service was excellent and timely. Highly recommended for authentic cuisine lovers." },
+  { id: 4, name: "Damian Kok", role: "Customer", date: "05/01/2026", text: "First time here. Very authentic Singapore-Malay food, best satay in Dubai." },
+  { id: 5, name: "Yousef Picky", role: "Customer", date: "10/01/2026", text: "Good location, good price range, and excellent service." },
+  { id: 6, name: "Rocio Munoz", role: "Customer", date: "10/01/2026", text: "Had a fantastic experience! The food was flavorful and beautifully presented, the staff were friendly and attentive. Definitely coming back." },
+  { id: 7, name: "Khairul Anwar", role: "Customer", date: "12/01/2026", text: "A newly opened restaurant serving Malay-Singaporean cuisine by experienced chefs with over 30 years of expertise." },
+  { id: 8, name: "Juefri Rene", role: "Customer", date: "12/01/2026", text: "A humble family-run spot offering authentic Singaporean heritage cuisine. Cozy and full of character." },
+  { id: 9, name: "Candy C", role: "Customer", date: "15/01/2026", text: "Delicious and comforting home-style food with authentic Singapore, Malaysia, and Indonesia flavors. Clean restaurant and attentive staff." },
+  { id: 10, name: "Bernice Chew", role: "Customer", date: "15/01/2026", text: "Rumah truly feels like home. The food is comforting, familiar, and full of flavor, just like in Malaysia and Singapore." },
+  { id: 11, name: "Nehsan Selvaraj", role: "Customer", date: "18/01/2026", text: "Amazing food and atmosphere. Brings back memories of Malaysia. Great portions and reasonable prices." },
+  { id: 12, name: "Elia Rani", role: "Customer", date: "18/01/2026", text: "Truly authentic Singaporean Malay food. Feels like home-cooked meals and made me crave it again the next day." },
+  { id: 13, name: "Albert Albert", role: "Customer", date: "20/01/2026", text: "Breakfast buffet was worth the price. The teh susu was outstanding. Sambal and pisang goreng were also excellent." },
+  { id: 14, name: "Bin Bin", role: "Customer", date: "20/01/2026", text: "The Nasi Lemak was so delicious I had more than two servings. The sambal enhanced every dish. A must-visit!" },
+  { id: 15, name: "Nasuhiyah Ashari", role: "Customer", date: "22/01/2026", text: "Satay, udang goreng kunyit, ikan goreng, mee goreng, and beef noodle are excellent. Superb ambience, excellent service, and very clean." },
   { id: 16, name: "Anang Hudaya Muhamad Amin", role: "Customer", date: "22/01/2026", text: "Great place. Delicious food. Highly recommended for anyone wanting to try Malay cuisine." },
-  { id: 17, name: "Shaista Umairah",         role: "Customer", date: "25/01/2026", text: "Tried satay, bandung, and pisang goreng. Very authentic Singaporean taste. Clean and cozy place. Will definitely return." },
-  { id: 18, name: "Ahmad Shafiq",            role: "Customer", date: "25/01/2026", text: "Alhamdulillah, very delicious! Great food and service. A promising restaurant." },
+  { id: 17, name: "Shaista Umairah", role: "Customer", date: "25/01/2026", text: "Tried satay, bandung, and pisang goreng. Very authentic Singaporean taste. Clean and cozy place. Will definitely return." },
+  { id: 18, name: "Ahmad Shafiq", role: "Customer", date: "25/01/2026", text: "Alhamdulillah, very delicious! Great food and service. A promising restaurant." },
   { id: 19, name: "Alvaro Maldonado Macias", role: "Customer", date: "28/01/2026", text: "Went for dinner with friends. Amazing food and great service." },
-  { id: 20, name: "Iman Hassein",            role: "Customer", date: "28/01/2026", text: "I'm sure this place will be awesome, InshaAllah." },
-  { id: 22, name: "Mohammed Al Bloushi",     role: "Customer", date: "01/02/2026", text: "Amazing food and excellent service. Everything was fresh and well-balanced. Beautiful and relaxing atmosphere." },
-  { id: 23, name: "Dinah Bahirah",           role: "Customer", date: "01/02/2026", text: "The food tastes like home cooking and reminds me of my mother. Will definitely come back." },
-  { id: 24, name: "Eva Almusawi",            role: "Customer", date: "03/02/2026", text: "Excellent food and service." },
-  { id: 25, name: "Angella Bea Enriquez",    role: "Customer", date: "05/02/2026", text: "Great experience overall." },
-  { id: 26, name: "Dince Joseph",            role: "Customer", date: "05/02/2026", text: "Dine-in experience was great." },
-  { id: 27, name: "Vildana Slatina",         role: "Customer", date: "06/02/2026", text: "Excellent experience." },
+  { id: 20, name: "Iman Hassein", role: "Customer", date: "28/01/2026", text: "I'm sure this place will be awesome, InshaAllah." },
+  { id: 22, name: "Mohammed Al Bloushi", role: "Customer", date: "01/02/2026", text: "Amazing food and excellent service. Everything was fresh and well-balanced. Beautiful and relaxing atmosphere." },
+  { id: 23, name: "Dinah Bahirah", role: "Customer", date: "01/02/2026", text: "The food tastes like home cooking and reminds me of my mother. Will definitely come back." },
+  { id: 24, name: "Eva Almusawi", role: "Customer", date: "03/02/2026", text: "Excellent food and service." },
+  { id: 25, name: "Angella Bea Enriquez", role: "Customer", date: "05/02/2026", text: "Great experience overall." },
+  { id: 26, name: "Dince Joseph", role: "Customer", date: "05/02/2026", text: "Dine-in experience was great." },
+  { id: 27, name: "Vildana Slatina", role: "Customer", date: "06/02/2026", text: "Excellent experience." },
 ];
 
 // ── Avatar component ─────────────────────────────────────────────────────────
@@ -165,7 +165,7 @@ const Testimonials = () => {
   const totalSlides = testimonials.length;
 
   return (
-    <section className="bg-[#dad1c1] py-20 px-5 md:px-10 font-sans overflow-hidden mt-20" id="testimonials">
+    <section className="section-bg py-20 px-5 md:px-10 font-sans overflow-hidden mt-20" id="testimonials">
       <div className="max-w-7xl mx-auto">
 
         {/* Title Area */}
