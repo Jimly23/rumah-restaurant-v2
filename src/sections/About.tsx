@@ -12,7 +12,7 @@ const AboutSection = () => {
         </h2>
 
         {/* About Text Content */}
-        <div className="font-playfair text-center text-[#1c5302] text-sm md:text-xl leading-relaxed space-y-6 max-w-7xl font-light normal-case">
+        <div className="font-playfair text-center text-[#1c5302] text-[12px] md:text-xl leading-relaxed space-y-6 max-w-7xl font-light normal-case">
           <h3 className='text-center font-medium text-2xl mb-0'>Why Rumah</h3>
           <p>
             Rumah means home in Malay and Indonesian—but here, it’s an experience. Rooted in ancient traditions, Rumah is a place of warmth, comfort, and togetherness, where heritage flavours are elevated and hospitality feels deeply personal. Every visit is an invitation to slow down, gather, and feel truly at home.

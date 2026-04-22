@@ -104,7 +104,7 @@ const Contact = () => {
         <div className="space-y-6">
 
           {/* Map 1 */}
-          <div className="relative w-full h-[350px] rounded-2xl overflow-hidden border-[6px] border-white shadow-2xl group/map">
+          <div className="relative w-full h-[200px] md:h-[350px] rounded-2xl overflow-hidden border-[6px] border-white shadow-2xl group/map">
             <a 
               href="https://maps.app.goo.gl/beiwRrFveuGANFHz6" 
               target="_blank" 
