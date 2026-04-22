@@ -3,6 +3,8 @@
 import React from 'react';
 import Link from 'next/link';
 
+const DELAY_PER_IMAGE = 3; // detik per gambar
+
 const Menu = () => {
   // Data gambar per kolom
   const columns = [
@@ -13,6 +15,8 @@ const Menu = () => {
         '/assets/images/terung-belado.jpg',
         '/assets/images/rendang-cabai.jpeg',
         '/assets/images/telur.jpeg',
+        '/assets/images/kopi-update.png',
+        '/assets/images/sate-update.png',
       ],
     },
     {
@@ -22,6 +26,8 @@ const Menu = () => {
         '/assets/images/ikan-tamban-goreng.jpg',
         '/assets/images/pastel.jpeg',
         '/assets/images/nastel.jpeg',
+        '/assets/images/pisang-goreng-update-2.png',
+        '/assets/images/sate-update-2.png',
       ],
     },
     {
@@ -32,9 +38,32 @@ const Menu = () => {
         '/assets/images/sate-madura.jpg',
         '/assets/images/nasi-kriuk.jpeg',
         '/assets/images/jus-buah.jpeg',
+        '/assets/images/rendang-update.png',
+        '/assets/images/sop-update.png',
       ],
     },
   ];
+
+  // Generate CSS per kolom agar durasi animasi dinamis sesuai jumlah gambar
+  const animationCSS = columns.map((col) => {
+    const n = col.images.length;
+    const duration = n * DELAY_PER_IMAGE;
+    const pct = 100 / n;
+    const fadeIn = Math.min(3, pct * 0.15);
+    const fadeOut = Math.min(3, pct * 0.15);
+    return `
+      @keyframes smoothFade-${col.id} {
+        0%              { opacity: 0; }
+        ${fadeIn}%      { opacity: 1; }
+        ${pct - fadeOut}% { opacity: 1; }
+        ${pct}%         { opacity: 0; }
+        100%            { opacity: 0; }
+      }
+      .fade-${col.id} {
+        animation: smoothFade-${col.id} ${duration}s infinite ease-in-out;
+      }
+    `;
+  }).join('');
 
   return (
     <section className="section-bg p-10">
@@ -46,19 +75,10 @@ const Menu = () => {
           Discover the authentic taste of Rumah Restaurant <br />with our curated selection of traditional Malay and Indonesian dishes.
         </p>
       </div>
+
       <div className="w-full flex flex-col items-center overflow-hidden" id="menu">
-        <style jsx>{`
-          @keyframes smoothFade {
-            0% { opacity: 0; }
-            10% { opacity: 1; }
-            33.33% { opacity: 1; }
-            43.33% { opacity: 0; }
-            100% { opacity: 0; }
-          }
-          .animate-smooth-fade {
-            animation: smoothFade 9s infinite ease-in-out;
-          }
-        `}</style>
+        {/* Dynamic keyframe CSS */}
+        <style>{animationCSS}</style>
 
         <div className="relative w-full grid grid-cols-1 md:grid-cols-3 rounded-3xl overflow-hidden">
           {columns.map((col, colIdx) => (
@@ -69,32 +89,26 @@ const Menu = () => {
               {col.images.map((img, imgIdx) => (
                 <div
                   key={imgIdx}
-                  className="absolute inset-0 bg-cover bg-center animate-smooth-fade opacity-0"
+                  className={`absolute inset-0 bg-cover bg-center opacity-0 fade-${col.id}`}
                   style={{
                     backgroundImage: `url('${img}')`,
-                    animationDelay: `${imgIdx * 3}s`
+                    animationDelay: `${imgIdx * DELAY_PER_IMAGE}s`,
                   }}
                 ></div>
               ))}
             </div>
           ))}
-
-          {/* Tombol Menu */}
         </div>
       </div>
+
       <div className="w-full justify-center items-center px-6 py-10">
         <div className='flex gap-2 justify-center items-center'>
           <Link
             href="/menu"
             className="w-full max-w-[250px] py-3 px-8 bg-[#1c5302] border-3 border-[#1c5302] text-white text-center rounded-lg font-semibold text-lg tracking-wide shadow-lg"
           >
-            Click Here to See Full Menu          </Link>
-          {/* <Link
-            href="/menu-2"
-            className="w-full max-w-[250px] py-3 px-8 bg-[#b58b2d] text-white text-center rounded font-medium tracking-wide shadow-lg"
-          >
-            Dessert
-          </Link> */}
+            Click Here to See Full Menu
+          </Link>
         </div>
       </div>
     </section>

@@ -14,11 +14,13 @@ const foodItems = [
   { id: 2, title: 'Sate Madura', desc: 'Sate Madura Asli', img: '/assets/images/sate-madura.jpg' },
   { id: 3, title: 'Lemak Cili Api', desc: 'Lemak Cili Api', img: 'https://cdn1.site-media.eu/images/0/22838307/slide4-qgu_U9k3dWPzSkiuqiDT1g.png' },
   // { id: 4, title: 'Rendang', desc: 'Rendang Daging Sapi', img: 'https://cdn1.site-media.eu/images/0/22838312/slide2-uDzgZj_iRVk2Tgacs0qhhw.png' },
+  { id: 4, title: 'Nasi Lemak', desc: 'Nasi Lemak', img: '/assets/images/galery-update-4.png' },
   { id: 5, title: 'Beef Rendang', desc: 'Beef Rendang', img: '/assets/images/rendang-cabai.jpeg' },
   { id: 6, title: 'Rendang', desc: 'Rendang Daging Sapi', img: '/assets/images/rendang.png' },
   { id: 7, title: 'Nasi Lemak', desc: 'Nasi Lemak', img: '/assets/images/nastel.jpeg' },
-  { id: 8, title: 'Nasi Rawon', desc: 'Nasi Rawon', img: '/assets/images/nasi-rawon-ayam-goreng.jpg' },
-  { id: 9, title: 'Kangkong Sambal Belacan', desc: 'Kangkong Sambal Belacan', img: '/assets/images/kangkung.png' },
+  { id: 8, title: 'Nasi Lemak', desc: 'Nasi Lemak', img: '/assets/images/galery-update.png' },
+  { id: 9, title: 'Nasi Rawon', desc: 'Nasi Rawon', img: '/assets/images/nasi-rawon-ayam-goreng.jpg' },
+  { id: 10, title: 'Kangkong Sambal Belacan', desc: 'Kangkong Sambal Belacan', img: '/assets/images/kangkung.png' },
   // Tambahkan item lainnya sesuai kebutuhan
 ];
 
