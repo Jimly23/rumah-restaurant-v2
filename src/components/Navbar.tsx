@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-2xl md:text-3xl font-bold whitespace-nowrap flex items-center">
           <Image src={'/assets/images/logo-rumah-bg-gemini.png'} alt="Logo" width={100} height={100} />
-          <span className='text-[26px] -mb-2'>Restaurant</span>
+          <span className='text-[20px] -mb-2'>Restaurant</span>
         </div>
 
         {/* Desktop Navigation */}
