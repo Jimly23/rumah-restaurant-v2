@@ -23,10 +23,10 @@ const Delivery = () => {
     <section className="section-bg py-20 px-5 font-sans text-center" id="order">
       <div className="max-w-5xl mx-auto">
         {/* Header */}
-        <h3 className="text-3xl md:text-5xl font-bold text-[#1c5302] mb-3">
+        <h3 className="text-4xl md:text-5xl font-bold text-[#1c5302] mb-3">
           Delivery
         </h3>
-        <p className="text-[#1c5302] font-playfair text-2xl mb-12">
+        <p className="text-[#1c5302] font-light text-2xl md:text-3xl mb-12">
           We partner with KEETA for fast, reliable, and right to your doorstep delivery
         </p>
 

@@ -28,8 +28,8 @@ const FoodGallery = () => {
   return (
     <section className="section-bg py-20 w-full overflow-hidden font-sans">
       <div className="max-w-7xl mx-auto px-4 mb-12 text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-[#1c5302] mb-4">Gallery</h2>
-        <p className="text-[#1c5302] font-playfair text-2xl max-w-xl mx-auto">Browse our customers&apos; favorite dishes.</p>
+        <h2 className="text-4xl md:text-5xl font-bold text-[#1c5302] mb-4">Gallery</h2>
+        <p className="text-[#1c5302] font-light text-3xl max-w-xl mx-auto">Browse our customers&apos; favorite dishes.</p>
       </div>
 
       <div className="max-w-[1400px] mx-auto px-4 md:px-16 relative group">

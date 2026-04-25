@@ -98,10 +98,10 @@ const Menu = () => {
   return (
     <section className="section-bg p-10">
       <div className="max-w-7xl mx-auto mt-10 mb-16 text-center">
-        <h2 className="text-3xl md:text-5xl font-bold text-[#1c5302] uppercase tracking-widest mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#1c5302] tracking-widest mb-4">
           Menu
         </h2>
-        <p className="text-2xl font-playfair mx-auto text-[#1c5302]">
+        <p className="text-2xl md:text-3xl font-light mx-auto text-[#1c5302]">
           Discover the authentic taste of Rumah Restaurant <br />with our curated selection of traditional Malay and Indonesian dishes.
         </p>
       </div>

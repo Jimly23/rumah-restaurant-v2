@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         {/* Brand/Service Links */}
-        <nav className="flex flex-wrap justify-center gap-x-8 gap-y-4 text-[#1c5302]">
+        <nav className="flex flex-wrap font-light justify-center gap-x-8 gap-y-4 text-[#1c5302]">
           <a
             href="#home"
             className="text-xs md:text-lg tracking-[0.2em] hover:text-white transition-colors"
@@ -127,7 +127,7 @@ const Footer = () => {
           </a>
         </nav>
 
-        <a href="/legal-notice" className='text-xs text-[#1c5302] md:text-lg tracking-[0.2em] hover:text-white transition-colors'>
+        <a href="/legal-notice" className='text-xs font-light text-[#1c5302] md:text-lg tracking-[0.2em] hover:text-white transition-colors'>
           Legal & Privacy Notice
         </a>
 

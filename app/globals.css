@@ -1,16 +1,59 @@
 @import "tailwindcss";
 
+/* ===== Moment (Printed) Font ===== */
+@font-face {
+  font-family: 'Moment';
+  src: url('/assets/fonts/fonts-printed/Moment.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===== IvyPresto Display Font Family ===== */
+@font-face {
+  font-family: 'IvyPresto Display';
+  src: url('/assets/fonts/fonts/fonnts.com-Ivy-Presto-Display-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyPresto Display';
+  src: url('/assets/fonts/fonts/fonnts.com-Ivy-Presto-Display-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyPresto Display';
+  src: url('/assets/fonts/fonts/fonnts.com-Ivy-Presto-Display-.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvyPresto Display';
+  src: url('/assets/fonts/fonts/fonnts.com-Ivy-Presto-Display-Semi-Bold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --hijau: #1c5302;
+  --font-ivypresto: 'IvyPresto Display', serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-cinzel), sans-serif;
-  --font-mono: var(--font-geist-mono);
+  --font-sans: 'IvyPresto Display', serif;
+  --font-mono: 'IvyPresto Display', serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,15 +70,29 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans);
+  font-family: 'IvyPresto Display', serif;
 }
 
+/* Legacy class overrides — all resolve to IvyPresto Display */
 .font-cinzel {
-  font-family: var(--font-cinzel), serif;
+  font-family: 'IvyPresto Display', serif !important;
 }
 
 .font-playfair {
-  font-family: var(--font-playfair), serif !important;
+  font-family: 'IvyPresto Display', serif !important;
+}
+
+.font-sans {
+  font-family: 'IvyPresto Display', serif !important;
+}
+
+/* Catch-all: force IvyPresto Display on every element */
+* {
+  font-family: 'IvyPresto Display', serif;
+}
+
+.font-moment {
+  font-family: 'Moment', cursive !important;
 }
 
 /* Section background image - responsive */

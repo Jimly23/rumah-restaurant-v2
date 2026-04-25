@@ -170,8 +170,8 @@ const Testimonials = () => {
 
         {/* Title Area */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold text-[#1c5302] mb-2">Testimonials</h2>
-          <p className="font-playfair text-3xl text-[#1c5302]">What our guests says on review.</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1c5302] mb-2">Testimonials</h2>
+          <p className="text-3xl font-light mx-auto text-[#1c5302]">What our guests says on review.</p>
         </div>
 
         {/* Carousel Wrapper */}
@@ -205,7 +205,7 @@ const Testimonials = () => {
                     </div>
 
                     {/* Text — truncated in card */}
-                    <p className="font-playfair text-lg text-black leading-relaxed italic mb-6 line-clamp-4">
+                    <p className="text-xl font-light text-[#2b331f] leading-relaxed mb-6 line-clamp-4">
                       &quot;{testi.text}&quot;
                     </p>
                   </div>
