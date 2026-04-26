@@ -26,7 +26,7 @@ const Delivery = () => {
         <h3 className="text-4xl md:text-5xl font-bold text-[#1c5302] mb-3">
           Delivery
         </h3>
-        <p className="text-[#1c5302] font-light text-2xl md:text-3xl mb-12">
+        <p className="font-playfair text-[#1c5302] font-light text-2xl md:text-3xl mb-12">
           We partner with KEETA for fast, reliable, and right to your doorstep delivery
         </p>
 

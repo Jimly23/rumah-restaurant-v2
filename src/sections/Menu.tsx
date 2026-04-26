@@ -101,7 +101,7 @@ const Menu = () => {
         <h2 className="text-4xl md:text-5xl font-bold text-[#1c5302] tracking-widest mb-4">
           Menu
         </h2>
-        <p className="text-2xl md:text-3xl font-light mx-auto text-[#1c5302]">
+        <p className="font-playfair text-2xl md:text-3xl font-light mx-auto text-[#1c5302]">
           Discover the authentic taste of Rumah Restaurant <br />with our curated selection of traditional Malay and Indonesian dishes.
         </p>
       </div>
